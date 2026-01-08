@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Questree 追问",
+  "version": "0.1.0",
+  "description": "像树一样生长的逻辑探索工具 | A Tree-Structured Logic Exploration Tool",
+  "permissions": [
+    "sidePanel",
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "打开 Questree 追问"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
