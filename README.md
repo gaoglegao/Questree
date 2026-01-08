@@ -62,7 +62,7 @@
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/your-username/questree.git
+   git clone https://github.com/gaoglegao/Questree.git
    ```
 2. 安装依赖并构建：
    ```bash

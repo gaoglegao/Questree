@@ -64,7 +64,7 @@ When conducting AI conversations or deep research, we often fall into the **"qua
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/questree.git
+   git clone https://github.com/gaoglegao/Questree.git
    ```
 2. Install dependencies and build:
    ```bash
