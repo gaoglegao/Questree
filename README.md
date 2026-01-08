@@ -4,6 +4,7 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![platform](https://img.shields.io/badge/platform-Chrome%20Extension-orange.svg)
+[**🇺🇸 English Version**](./README_EN.md)
 
 ## 🌟 什么是 Questree？
 
